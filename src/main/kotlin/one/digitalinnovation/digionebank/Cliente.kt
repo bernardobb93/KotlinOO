@@ -11,6 +11,6 @@ class Cliente(
     override fun toString(): String ="""
         Nome:$nome
         Cpf:$cpf
-        Tipo:$clienteTipo
+        Tipo:${clienteTipo.descricao}
     """.trimIndent()
     }
